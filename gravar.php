@@ -11,15 +11,15 @@
         $titulo= $_POST["titulo"];
         $autor = $_POST["autor"];
         $categoria = $_POST["categoria"];
-        $editora = $_POSTo["editora"];
+        $editora = $_POST["editora"];
         $edicao = $_POST["edicao"];
 
                 
         
-        $con = mysqli_connect("localhost","root","","livrosdenis");
+        $con = mysqli_connect("localhost","root","","xxxx");
         
        
-        $sql= "insert into livros value(null,'".$titulo."','".$autor."','".$categoria."','".$editora."','".$edicao.".)";
+        $sql= "insert into livros value(null,'".$titulo."','".$autor."','".$categoria."','".$editora."',".$edicao.")";
         //$sql= "insert into livros value(null,'".$titulo."','".$autor."','".$categoria."','".$editora."','".$edicao."')";
         
         
