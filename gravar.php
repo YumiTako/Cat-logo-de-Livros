@@ -13,7 +13,7 @@
         $categoria = $_POST["categoria"];
         $editora = $_POSTo["editora"];
         $edicao = $_POST["edicao"];
-}
+
                 
         
         $con = mysqli_connect("localhost","root","","livrosdenis");
