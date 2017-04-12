@@ -19,7 +19,7 @@
         $con = mysqli_connect("localhost","root","","livrosdenis");
         
        
-        $sql= "insert into livros value('".$titulo."','".$autor."','".$categoria."','".$editora."','".$edicao.".)";
+        $sql= "insert into livros value(null,'".$titulo."','".$autor."','".$categoria."','".$editora."','".$edicao.".)";
         //$sql= "insert into livros value(null,'".$titulo."','".$autor."','".$categoria."','".$editora."','".$edicao."')";
         
         
